@@ -1,0 +1,84 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(150, 200, 200, 0.9);
+    font-family: 'Roboto', sans-serif;
+}
+
+body
+{
+    height: 100vh;
+}
+
+.cadu-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadu-titulo
+{
+    text-align: center;
+    color: brown;
+    font-weight: bold;
+}
+
+.nal-descricao
+{
+    text-align: center;
+    font-size: large;
+    color: rgb(9, 24, 24);
+    font-weight: bold;
+    margin: 10px auto;
+}
+
+.nal
+{
+    border-radius: 5%;
+    width: 50%;
+    height: 50%;
+    block-size: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.caio-container
+{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.caio-titulo
+{
+    color: brown;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.chipaku-descricao
+{
+    color: black;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.chipaku
+{
+    width: 700px;
+    height: 400px;
+}
